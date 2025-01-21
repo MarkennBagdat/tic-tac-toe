@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #575757;
+  transition: background-color 0.3s;
+}
+
+.cell:hover {
+  background-color: rgb(234, 234, 234);
+}
+
+.status {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+/* Цвета текста статуса */
+.status.winner-x {
+  color: rgb(0, 0, 255);
+}
+
+.status.winner-o {
+  color: rgb(0, 255, 0);
+}
+
+.status.draw {
+  color: rgb(255, 0, 0);
+}
