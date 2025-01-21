@@ -1,74 +1,17 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Tic-Tac-Toe Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Игровой процесс
+1. Игроки по очереди кликают по одной из пустых клеток на игровом поле.
+2. Первый игрок использует 'X', второй игрок использует 'O'.
+3. После каждого хода проверяется, не выиграл ли один из игроков.
+4. Если все клетки заполнены и ни один из игроков не выиграл, объявляется ничья.
 
-## Available Scripts
+## Функции
+1. **calculateWinner**: Проверяет, есть ли выигрышная комбинация на доске.
+2. **handleClick**: Обрабатывает клики по клеткам и обновляет состояние игры.
+3. **renderCell**: Отрисовывает клетки игрового поля.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# tic-tac-toe
->>>>>>> b5adfd1796d0765d1507217308d9782577213190
+<img src="https://github.com/user-attachments/assets/370344e1-608d-45aa-a3b9-ac4eb3d9b596" width="200px" height="200px">
+<img src="https://github.com/user-attachments/assets/046da040-88cb-4bb8-a77e-0cf8af657ddf" width="200px" height="200px">
+<img src="https://github.com/user-attachments/assets/318a29b0-d623-4823-b4dc-6d2d7613b8a0" width="200px" height="200px">
+<img src="https://github.com/user-attachments/assets/4901141b-edfc-43bb-8b25-324e8e91648d" width="200px" height="200px">
